@@ -1,0 +1,437 @@
+* {
+  padding: 0px;
+  margin: 0;
+}
+
+html, body{
+  margin: 0; padding: 0; width: 100%;
+  height: 100%;
+  overflow-x: hidden !important;
+}
+
+.hide {
+  display: none;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.top-nav {
+  padding: 10px;
+}
+
+.top-nav:hover {
+  text-decoration: underline 2px;
+  text-decoration-color: #dab442;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+
+.get-in-touch1 {
+  color: white;
+  font-size: 16px;
+  background-color: #dab442;
+  border: none;
+  border-radius: 100px;
+  width: 120px;
+  height: 35px;
+  color: white;
+  text-decoration: none;
+}
+
+.get-in-touch1:hover {
+  background-color: #535353;
+  cursor: pointer;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.hero-words {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: "Megrim", sans-serif;
+  font-size: 92px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+
+
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+#bee {
+  padding-bottom: 40px;
+  margin: auto;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%   {top:20px;}
+    25%  {top:60px;}
+    40%  {top:60px;}
+    55%  {top:20px;}
+    70%  {top:20px;}
+    85%  {top:20px;}
+    100% {top:20px;}
+}
+
+.download {
+  width: 300px;
+  height: 35px;
+  background-color: #dab442;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.download:hover {
+  background-color: #535353;
+  cursor: pointer;
+}
+
+
+
+
+.my-ux-skills {
+  background-color: #F6EBC9;
+  padding: 20px;
+}
+
+.h2 {
+  font-family: "Megrim", sans-serif;
+  font-size: 92px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+.skills-box {
+  display: flex;
+}
+
+.skill {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+
+.skill-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.skill-desc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.h3 {
+  font-family: "Megrim", sans-serif;
+  font-size: 92px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.project1 {
+  display: flex;
+  align-items: center;
+}
+
+#nws-img {
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+#nws-img:hover {
+  background-color: white;
+  opacity: 20%;
+  cursor: pointer;
+  transform: scale(1.05)
+}
+
+.description1 {
+  display: block;
+  padding: 100px;
+}
+
+
+.description2 {
+  display: block;
+  padding: 100px;
+}
+
+#pku-img {
+  float: right;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#pku-img:hover {
+  background-color: white;
+  opacity: 20%;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+.project-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.project-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+
+
+footer {
+  background-color: #535353;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.list2 {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.bottom {
+  color: white;
+  padding: 10px;
+}
+
+.bottom:hover {
+  text-decoration: underline 2px;
+  text-decoration-color: #dab442;
+  cursor: pointer;
+}
+
+.get-in-touch {
+  color: white;
+  font-size: 16px;
+  background-color: #dab442;
+  border: none;
+  border-radius: 100px;
+  width: 120px;
+  height: 35px;
+  color: white;
+  text-decoration: none;
+}
+
+.get-in-touch:hover {
+  background-color: #535353;
+  cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #avatar {
+    display: flex;
+    margin: auto;
+    height: 450px;
+    width: 330px;
+  }
+
+.hide {
+  font-family: "Megrim", sans-serif;
+  font-size: 92px;
+  padding-bottom: 20px;
+  display: flex;
+  font-size: 56px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .name {
+    display: none;
+    font-size: 56px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .description {
+    display: flex;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .list, .list2, .get-in-touch, .get-in-touch1 {
+    font-size: 14px;
+  }
+
+  #beeFINAL {
+    display: block;
+  }
+
+  .download {
+    display: block;
+    font-size: 14px;
+  }
+
+
+
+
+  
+  .h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .skill-title {
+    font-size: 16px; 
+    padding-top: 30px;
+  }
+
+  .skill-desc {
+    font-size: 14px;
+  }
+
+  .skill {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  .h3 {
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .project1 {
+    display: block;
+  }
+
+  .project-title {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .project-text {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .project2 {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  #pku-img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    float: none; 
+    margin: auto;
+  }
+
+  #nws-img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin: auto;
+  }
+
+  .description1, .description2 {
+    padding: 30px;
+  }
+}
