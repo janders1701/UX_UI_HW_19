@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../portfolio19/css/style.css">
     <link rel="icon" href="../portfolio19/images/beeFINAL.png" type="image/icon type" id="bee1">
@@ -21,7 +22,7 @@
             font-family: "Trirong", serif;
         }
     </style>
-    <script src="../portfolio19/js/index.js"></script>
+
 </head>
 
 
@@ -53,8 +54,15 @@
 
             <div class="animation">
                 <img src="../portfolio19/images/beeFINAL.png" width="30px" id="bee">
-                <button class="download">Download Resume</button>
+
+                <button type="button" class="buttonDL" data-progress-text="Buzzing your way..." data-complete-text="Complete!">
+                    <div class="button-progress"></div>
+                    <span class="button-text">Download Resume</span>
+                </button>
+
+
             </div>
+
         </div>
     </section>
 
@@ -119,7 +127,14 @@
             </ul>
         </div>
     </footer>
-    </div>
-</body>
 
+
+    <div class="preloader">
+        <img src="images/BeeLoader.png">
+        <p>Bee right with you...</p>
+      </div>
+
+
+<script src="js/index.js"></script>
+</body>
 </html>
